@@ -1,0 +1,408 @@
+/* ДЕФОЛТНЫЙ LAYOUT*/
+noscript{ color: #ff0000; font-weight: bold; }
+/*h1{ font-family: Times, serif; color: #555; margin: 0 0 10px 0; letter-spacing: 2px; }
+p{ line-height: 18px; margin: 10px 0; }*/
+.wrapper{ text-align: left; margin: 40px auto; background-color: #ffffff; width: 250px; height: 250px; /*padding: 0 25px 50px 25px; border: 1px solid red;*/}
+#PhotoPrevs{ }
+#PhotoPrevs img{ /*margin: 20px 20px;*/ }
+#PhotoPrevs1{  }
+#PhotoPrevs1 img{ /*margin: 20px 20px;*/ }
+#PhotoPrevs2{  }
+#PhotoPrevs2 img{ /*margin: 20px 20px;*/ }
+#str_smart {
+margin: 0 auto;
+width: 960px;
+}
+@font-face {
+font-family: 'ProximaNova';
+src: url("../fonts/proxima.otf") format("opentype");
+}
+/* КОНЕЦ ДЕФОЛТНЫЙ LAYOUT*/
+
+/*КНОПКИ ПОДАТЬ ЗАЯВКУ И Т.П.*/
+
+	.story {
+		
+	}
+	.params_do {
+		width: 250px;
+		height: 100px;
+		resize: none;
+	}
+	.aim {
+		width: 534px;
+		height: 100px;
+		resize: none;
+	}
+	#fifth {
+		background: url(../img/div4.png);
+		width: 960px;
+		height: 255px;
+		margin-top: -58px;
+	}
+	#sixth {
+		background: url(../img/div5.png);
+		width: 960px;
+		height: 296px;
+		margin-top: -58px;
+	}
+	.zg {
+		float: right; 
+		margin-right: 10px; 
+		margin-top: 40px; 
+		border-radius: 15px; 
+		background: black; 
+		width: 240px; 
+		height: 30px; 
+		color: #fff; 
+		font-size: 18px; 
+		font-family: 'ProximaNova';
+	}
+	.but_podat {
+		width:200px;
+		height:20px;
+		background-color:#8e3530;
+		  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari, Chrome */
+  -khtml-border-radius: 20px; /* KHTML */
+  border-radius: 20px; /* CSS3 */
+  text-align:center;
+  color:#fff;
+  padding:10px;
+  font-size:12pt;
+	}
+
+
+/*КОНЕЦ КНОПКИ ПОДАТЬ ЗАЯВКУ И Т.П.*/
+
+
+
+/*ОСНОВНОЙ СТИЛЬ*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+a img {border: 0;}
+a {color: #4f4f4f; text-decoration: none;}
+body, html {
+	font-family: "Trebuchet MS", "Arial", "Helvetica CY", "Nimbus Sans L", sans-serif;
+	font-size:13px;
+	color:#4f4f4f;
+	background:#fff;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+}
+input[type="text"], textarea{color: #4f4f4f;}
+h1{
+	font-size: 28px;
+	font-weight: normal;
+}
+
+#main{
+	min-height: 100% !important;
+	position: relative;
+	z-index: 1;
+}
+.content {
+	width:960px;
+	margin:0 auto;
+	padding-bottom: 240px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table td{
+	vertical-align:top;
+}
+ul, li{
+	list-style: none;
+}
+.clear-all {
+	float: none !important;
+	clear: both !important;
+	width: 0 !important;
+	height: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 none !important;
+}
+.whitebg{
+	background-color: #fff !important;
+}
+.hr{
+	display: block;
+	height: 1px;
+	background-color: #c7c6c2;
+}
+.display-none{display: none;}
+
+
+a.alfavit {text-transform: uppercase; color:#76ad1c;}
+a.alfavit:hover { text-decoration:underline; }
+
+div.silver {
+	background-color:#CCC;
+	color:#FFF;
+	padding:1px 5px;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right:15px;
+	}
+	
+div.inline {
+		display: inline-block;
+	}
+	
+p { 
+
+
+margin-bottom: 12px;
+margin-top: 2px;
+}
+
+.border-top {
+    height: 1px;
+    background-color: #a2a099;
+    margin: 20px 0;
+}	
+
+/*КОНЕЦ ОСНОВНОЙ СТИЛЬ*/
+
+
+/*ДЛЯ ЧЕГО ЭТОТ СТИЛь*/
+span {
+	font-family: 'ProximaNova' !important;
+}
+p {
+	font-family: 'ProximaNova' !important;
+}
+	#first {
+	width: 956px;
+	height: 330px;
+	background: url(../img/winter.jpg);
+}
+	#grey {
+	background-color: #eee9e5;
+	width: 856px;
+	padding: 50px;
+}
+#grey span {
+	font-family: 'ProximaNova';
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+#blue {
+	background-color: #b8e9de;
+	width: 856px;
+	padding: 50px;
+}
+#blue span {
+	font-family: 'ProximaNova';
+	text-align: left;
+}
+#second {
+	background: url(../img/div2.png);
+	width: 956px;
+	height: 246px;
+	margin-top: -10px;
+}
+#second span {
+	font-family: 'ProximaNova';
+	text-align: left;
+}
+#second p {
+	padding-top: 50px; 
+	margin-left: 50px; 
+	color: #fff; 
+	font-size: 24px; 
+	font-weight: bold;
+}
+#yellow {
+	background-color: #e0ff64;
+	width: 856px;
+	padding: 50px;
+	height: 140px;
+}
+#yellow_r {
+	background-color: #e0ff64;
+	width: 856px;
+	padding: 50px;
+	height: 140px;
+}
+#yellow_r span {
+	font-family: 'ProximaNova';
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+#yellow span {
+	font-family: 'ProximaNova';
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+#yellow .left {
+	float: left;
+	width: 48%;
+}
+#yellow .right {
+	float: right;
+	width: 48%;
+}
+#third {
+	background: url(../img/div3.png);
+	width: 960px;
+	height: 399px;
+}
+#third ul {
+	width: 100%;
+}
+#third span {
+	font-family: 'ProximaNova';
+	text-align: left;
+	font-size: 26px;
+}
+#blue .hq {
+	font-size: 24px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#blue .textmain {
+	background: url(../img/ico1.png) no-repeat;
+	background-size: 280px 300px;
+	background-position: top left;
+	height: 320px;
+	width: 90%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#blue .textmain span {
+	width: 60%;
+	float: right;
+	font-size: 16px;
+	line-height: 20px;
+}
+#blue .info {
+	background: url(../img/ico.png) no-repeat;
+	background-position: top left;
+	background-size: 30px 30px;
+	width: 90%;
+	height: 100%;
+}
+#blue .info p {
+	margin-left: 50px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+.personal input {
+	width: 250px;
+	height: 30px;
+	background-color: #fff;
+	padding:5px;
+}
+.personal p {
+	float: left; 
+	margin-left: 20px; 
+	font-family: 'ProximaNova';
+}
+
+.img {
+	padding: 25px;
+}
+.img img {
+	width: 200px;
+	height: 200px;
+}
+
+#blue .text {
+	padding: 25px;
+	line-height: 25px;
+	font-size: 16px;
+}
+.fotoup {
+	height: 630px;
+}
+#seventh {
+	background: url(../img/div6.png);
+	height: 273px;
+	width: 960px;
+	margin-top: -40px;
+}
+#seventh span {
+	font-family: 'ProximaNova';
+	text-align: left;
+}
+#seventh p {
+	padding-top: 80px; 
+	margin-left: 50px; 
+	color: #fff; 
+	font-size: 24px; 
+	font-weight: bold;
+}
+#yellow1 {
+	background-color: #e0ff64;
+	width: 856px;
+	padding: 50px;
+	height: 200px;
+}
+#yellow1 span {
+	font-family: 'ProximaNova';
+	text-align: left;
+}
+
+.typecss input{
+	opacity: 0;
+   filter: alpha(opacity=0);
+  width:1px;
+	height:1px;
+   z-index:99999;
+   position: relative;
+   cursor: pointer;
+}
+.typecss label {
+   background: url('../img/check-box_00.png') no-repeat;
+   color: #efefef;
+   cursor: pointer;
+   display:block;
+	width:26px;
+	height:25px;
+}
+
+.typecss > input[type='radio']:checked + label {
+   background: url('../img/check-box_01.png') no-repeat;
+}
+
+.typecsstd{
+	line-height:50px;
+}
+
+.wh {
+	background: #fff;
+}
+
+.ttt td, .ttt tr  { border:0px solid #f00;}
+
+.remove_1, .remove_2, .remove_3, .remove_4, .remove_5, .remove_6, .remove_7, .remove_8, .remove_9, .remove_10 {
+	  position: absolute;
+	  margin-top: 5px;
+	  margin-left: 235px;
+	  cursor: pointer;
+}
+
+/*КОНЕЦ ДЛЯ ЧЕГО ЭТОТ СТИЛЬ*/
+
+
+
+
+
+
